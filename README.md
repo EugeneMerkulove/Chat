@@ -1,6 +1,6 @@
 1.Clone the project: 
 
-git clone <https://github.com/EugeneMerkulove/land.git>
+git clone <https://github.com/EugeneMerkulove/Chat.git>
 <hr>
 
 2.Upload npm packages:
