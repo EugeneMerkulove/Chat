@@ -1,0 +1,89 @@
+.chat-header {
+    width: 100%;
+    display: flex;
+    background: #3498db;
+    padding: 20px 50px;
+    justify-content: space-between;
+
+    .burger {
+        display: inline-block;
+        cursor: pointer;
+    
+        .bar1, .bar3 {
+            width: 35px;
+            height: 4px;
+            background-color: white;
+            margin: 5px 0;
+            transition: 0.4s;
+            border-radius: 5px; 
+        }
+
+        .bar2 {
+            width: 25px;
+            height: 4px;
+            background-color: white;
+            margin: 5px 0;
+            transition: 0.4s;
+            border-radius: 5px;
+        }
+    }
+    .search-conteiner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .search {
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            color: white;
+        }
+
+        .icon-conteiner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .photo {
+                margin: 0 20px;
+            }
+
+            .info {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                .status {
+                    margin-top: 5px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    .icon a {
+                        outline: none;
+                        text-decoration: none;
+                        color: #2a7cb3;
+                        font-size: 12px;
+                    }
+
+                    .status-place span {
+                        font-family: "latoregular";
+                        color: #2a7cb3;
+                        font-size: 12px;
+                        letter-spacing: 2px;
+                        margin-right: 35px;
+                        
+                    }
+                }
+                .nickname {
+                    margin-top: 5px;
+                    font-family: "latobold";
+                    font-size: 15px;
+                    color: white;
+                }
+
+            }
+        }
+
+    }   
+}
